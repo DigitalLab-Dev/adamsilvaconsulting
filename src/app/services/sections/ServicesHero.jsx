@@ -1,4 +1,5 @@
 import { ArrowRight } from 'lucide-react'
+import Link from 'next/link'
 import React from 'react'
 
 const ServicesHero = () => {
@@ -33,13 +34,13 @@ const ServicesHero = () => {
         </a>
         
         {/* Secondary CTA Button/Link */}
-        <a 
+        <Link
           href="/authority-hub" 
           className="bg-white border-2 border-blue-700 flex items-center justify-center gap-3 text-lg font-bold p-4 sm:p-5 rounded-xl text-blue-700 hover:bg-blue-50 transition duration-300 transform hover:scale-[1.02] cursor-pointer w-full sm:w-auto"
         >
           Explore Authority Hub
           <ArrowRight className='w-5 h-5'/>
-        </a>
+        </Link>
       </div>
     </section>
   )
