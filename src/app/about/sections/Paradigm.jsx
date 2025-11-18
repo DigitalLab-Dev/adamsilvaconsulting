@@ -31,7 +31,7 @@ const Paradigm = () => {
         <h3 className="text-center font-bold text-3xl md:text-4xl text-gray-800">
           Navigating the New Advertising Paradigm
         </h3>
-        <p className="text-neutral-600 text-lg md:text-xl leading-relaxed">
+        <p className="text-neutral-600 text-lg px-4 md:text-xl leading-relaxed">
           The digital advertising landscape is undergoing its most profound
           transformation in over a decade. AI-powered platforms are
           fundamentally altering how users interact with information online,

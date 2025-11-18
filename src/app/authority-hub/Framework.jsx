@@ -2,7 +2,7 @@ import React from 'react';
 
 const Framework = () => {
   return (
-    <section className="mt-20 flex items-center justify-center flex-col gap-5">
+    <section className="mt-20 px-8 flex items-center justify-center flex-col gap-5">
       <h2 className="text-3xl md:text-4xl font-bold text-neutral-700">
         The Authority Building Framework
       </h2>

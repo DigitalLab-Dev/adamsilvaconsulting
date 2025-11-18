@@ -86,7 +86,7 @@ const About = () => {
               {metrics.map((metric, index) => (
                 <div
                   key={index}
-                  className="flex items-center justify-between gap-4"
+                  className="flex flex-col md:flex-row items-center justify-between gap-4"
                 >
                   {/* Label */}
                   <span className="text-gray-600 font-normal text-base whitespace-nowrap">
@@ -94,7 +94,7 @@ const About = () => {
                   </span>
 
                   {/* Progress Bar and Value Container */}
-                  <div className="flex items-center gap-3 flex-1 max-w-xs">
+                  <div className="flex items-center gap-3 flex-1 w-full md:max-w-xs">
                     {/* Progress Bar Container */}
                     <div className="flex-1 ml-20 bg-gray-200 rounded-full h-1 overflow-hidden min-w-[120px]">
                       <div

@@ -10,7 +10,7 @@ const AboutCTA = () => {
 
         <div className="relative z-10 max-w-5xl mx-auto text-center">
           {/* Heading */}
-          <h2 className="text-4xl md:text-5xl  font-bold text-black mb-6 leading-tight">
+          <h2 className="text-4xl md:text-5xl  font-bold text-white mb-6 leading-tight">
            Ready to Lead the Transformation?
 
           </h2>

@@ -5,7 +5,7 @@ const KeyBenifits = ({ benefits }) => {
   return (
     <section className="mt-20 flex flex-col items-center justify-center gap-10">
       <h2 className="text-3xl md:text-4xl font-bold text-neutral-800">
-        Key Features
+        Key Benefits
       </h2>
       <p className="text-xl text-neutral-700 max-w-4xl text-center">
         Comprehensive capabilities designed to deliver measurable results
@@ -15,7 +15,7 @@ const KeyBenifits = ({ benefits }) => {
         {benefits.map((benefit, index) => (
           <div
             key={index}
-            className="p-5 flex flex-col items-center justify-start h-[200px] gap-5 rounded-xl  max-w-[30%] w-full"
+            className="p-5 flex flex-col items-center justify-start h-[200px] gap-5 rounded-xl  md:max-w-[30%] w-full"
           >
             {/* Icon Wrapper */}
             <div className="p-4 rounded-full bg-blue-100 flex items-center  justify-center">

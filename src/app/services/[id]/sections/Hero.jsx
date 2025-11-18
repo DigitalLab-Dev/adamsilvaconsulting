@@ -13,7 +13,7 @@ const Hero = ({ hero }) => {
       style={{ backgroundImage }}
     >
       {/* Black Overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/70"></div>
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center gap-10">
@@ -23,7 +23,7 @@ const Hero = ({ hero }) => {
           height={70}
           alt="service-logo"
         />
-        <h1 className="text-3xl md:text-4xl text-white lg:text-6xl font-bold">
+        <h1 className="text-3xl md:text-4xl text-white lg:text-5xl font-bold">
           {heading}
         </h1>
         <h2 className="text-2xl text-white max-w-4xl text-center">

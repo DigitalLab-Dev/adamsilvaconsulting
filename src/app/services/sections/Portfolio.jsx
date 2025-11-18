@@ -16,24 +16,24 @@ const Portfolio = () => {
     {
       title:"Automated Omnichannel Communication",
       subheading:"Engage customers seamlessly across all channels with AI personalization",
-      link:"/services/automated-omnichannel-communication"
+      link:"/services/omnichannel-communication"
     },
     {
       title:"Intelligent Campaign Management",
       subheading:"Orchestrate complex marketing funnels with real-time optimization",
-      link:"/services/intelligent-campaign-management"
+      link:"/services/intelligent-campaigns"
     },{
       title:"Real-time Analytics & Reporting",
       subheading:"Monitor performance with live dashboards and predictive insights",
-      link:"/services/real-time-analytics-reporting"
+      link:"/services/analytics-reporting"
     },{
       title:"Intent Graph Identity Targeting",
       subheading:"Identify \"who is searching\" by linking behavior to identities",
-      link:"/services/intent-graph-identity-targeting"
+      link:"/services/intent-graph-targeting"
     },{
       title:"Precision Lead Management & Targeting",
       subheading:"Qualify leads, build personas, and schedule engagement with AI",
-      link:"/services/precision-lead-management-targeting"
+      link:"/services/precision-lead-management"
     },{
       title:"Security & Compliance",
       subheading:"Operate confidently with AI-powered data protection and regulatory adherence",
@@ -41,7 +41,7 @@ const Portfolio = () => {
     },{
       title:"AI-Driven Website & Landing Pages",
       subheading:"Instantly generate high-converting digital assets with automated optimization",
-      link:"/services/ai-driven-website-landing-pages"
+      link:"/services/ai-websites-landing-pages"
     },{
       title:"Outreach & Partnerships",
       subheading:"Connect with influencers and partners through AI-driven relationship management",
@@ -49,19 +49,20 @@ const Portfolio = () => {
     },{
       title:"Voice Agent Lead Verification",
       subheading:"Automated voice calls for lead verification, enrichment, and qualification",
-      link:"/services/voice-agent-lead-verification"
+      link:"/services/voice-agent-verification"
     },{
       title:"AI Lead Generation & Qualification",
       subheading:"Advanced AI systems for lead discovery, scoring, and automated qualification",
-      link:"/services/ai-lead-generation-qualification"
+      link:"/services/ai-lead-generation"
     },{
       title:"Omnichannel Lead Nurturing",
       subheading:"Multi-channel automated follow-up sequences with AI personalization",
-      link:"/services/omnichannel-lead-nurturing"
-    },{
+      link:"/services/omnichannel-nurturing"
+    }
+    ,{
       title:"Competitor Domain & Keyword Monitoring",
       subheading:"Detect competitor strategies for strategic advantage and market response",
-      link:"/services/competitor-domain-keyword-monitoring"
+      link:"/services/competitor-monitoring"
     }
   ]
 

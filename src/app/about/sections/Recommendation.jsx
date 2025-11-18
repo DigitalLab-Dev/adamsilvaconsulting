@@ -43,11 +43,11 @@ const Recommendation = () => {
         {recommendations.map(({ Icon, title, p1, p2 }, index) => (
           <div
             key={index}
-            className="w-full md:w-[45%]  bg-white h-[250px] justify-start rounded-lg shadow-md p-6 flex flex-col items-start"
+            className="w-full md:w-[45%]  bg-white h-[280px] justify-start rounded-lg shadow-md p-6 flex flex-col items-start"
           >
             <div className="flex items-center justify-center gap-5">
               <Icon className="w-8 h-8 text-[#0F6CBB] mb-4" />
-              <h6 className="text-xl font-semibold text-neutral-800 mb-3">
+              <h6 className="text-xl font-bold text-neutral-800 mb-3">
                 {title}
               </h6>
             </div>
