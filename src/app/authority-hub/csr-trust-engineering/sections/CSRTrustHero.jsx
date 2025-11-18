@@ -9,7 +9,7 @@ const CSRTrustHero = () => {
       flex flex-col items-center justify-center 
       px-4 sm:px-10 text-white 
       bg-gradient-to-b 
-      from-[#1A0B42] via-[#131A4A] to-[#0D193F]
+      from-[#0F4227] via-[#0F3E3B] to-[#182E6E]
     ">
       
       {/* Back Link */}
@@ -26,21 +26,19 @@ const CSRTrustHero = () => {
       {/* Heading */}
       <div className="text-center mb-6">
         <h1 className="text-4xl md:text-5xl font-bold tracking-tight leading-tight">
-          <span className="text-white">AI-Powered </span>
-          <span className="text-orange-400">Content Operations</span>
+          <span className="text-white">CSR & Trust </span>
+          <span className="text-orange-400">Engineering</span>
         </h1>
       </div>
 
       {/* Subheading */}
       <h2 className="text-xl md:text-2xl text-blue-100 mb-6 text-center max-w-3xl">
-        Scaling Content Production with Brand Consistency and Topical Authority
+        AI-Enhanced Corporate Social Responsibility and Verifiable Brand Authority
       </h2>
 
       {/* Description */}
       <p className="max-w-3xl text-center text-blue-200 mb-10 text-md leading-relaxed">
-        Master the strategic frameworks for implementing AI-powered content operations 
-        that deliver exponential production capacity while maintaining unwavering brand voice 
-        consistency and building defensible topical authority.
+        Transform corporate social responsibility from compliance checkbox to competitive advantage through AI-enhanced transparency systems, verifiable impact measurement, and trust engineering that builds unshakeable brand authority and stakeholder confidence.
       </p>
 
       {/* Buttons */}
@@ -51,7 +49,7 @@ const CSRTrustHero = () => {
           px-6 py-3 rounded-lg 
           transition flex items-center gap-2
         ">
-          Implement Content Operations →
+          Implement Trust Engineering →
         </button>
 
         <button className="
@@ -60,7 +58,7 @@ const CSRTrustHero = () => {
           px-6 py-3 rounded-lg 
           font-semibold transition flex items-center gap-2
         ">
-          Explore Content Services ✦
+          Explore Security & Compliance ⛉
         </button>
       </div>
 
